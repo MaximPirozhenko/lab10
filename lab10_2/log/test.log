@@ -1,0 +1,144 @@
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+CalcControllerTest: test_should_get_view
+----------------------------------------
+Started GET "/calc/view" for 127.0.0.1 at 2016-11-27 18:24:46 +0400
+Processing by CalcController#view as HTML
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+CalcControllerTest: test_should_get_input
+-----------------------------------------
+Started GET "/calc/input" for 127.0.0.1 at 2016-11-27 18:24:46 +0400
+Processing by CalcController#input as HTML
+  Rendering calc/input.html.erb within layouts/application
+  Rendered calc/input.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 441ms (Views: 434.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------------------
+CalcControllerTest: test_should_get_[5,_25,_1],_[5]_for_view_with_[5,_25,_1,_2,_4,_5]
+-------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+CalcControllerTest: test_should_get_view
+----------------------------------------
+Started GET "/calc/view" for 127.0.0.1 at 2016-11-27 18:26:45 +0400
+Processing by CalcController#view as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+CalcControllerTest: test_should_get_input
+-----------------------------------------
+Started GET "/calc/input" for 127.0.0.1 at 2016-11-27 18:26:45 +0400
+Processing by CalcController#input as HTML
+  Rendering calc/input.html.erb within layouts/application
+  Rendered calc/input.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 258ms (Views: 252.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------------------
+CalcControllerTest: test_should_get_[5,_25,_1],_[5]_for_view_with_[5,_25,_1,_2,_4,_5]
+-------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------------------
+CalcControllerTest: test_should_get_[5,_25,_1],_[5]_for_view_with_[5,_25,_1,_2,_4,_5]
+-------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+CalcControllerTest: test_should_get_view
+----------------------------------------
+Started GET "/calc/view" for 127.0.0.1 at 2016-11-27 18:28:02 +0400
+Processing by CalcController#view as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+CalcControllerTest: test_should_get_input
+-----------------------------------------
+Started GET "/calc/input" for 127.0.0.1 at 2016-11-27 18:28:02 +0400
+Processing by CalcController#input as HTML
+  Rendering calc/input.html.erb within layouts/application
+  Rendered calc/input.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 274ms (Views: 268.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------------------
+CalcControllerTest: test_should_get_[5,_25,_1],_[5]_for_view_with_[5,_25,_1,_2,_4,_5]
+-------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+CalcControllerTest: test_should_get_input
+-----------------------------------------
+Started GET "/calc/input" for 127.0.0.1 at 2016-11-27 18:29:47 +0400
+Processing by CalcController#input as HTML
+  Rendering calc/input.html.erb within layouts/application
+  Rendered calc/input.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 289ms (Views: 267.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+CalcControllerTest: test_should_get_input
+-----------------------------------------
+Started GET "/calc/input" for 127.0.0.1 at 2016-11-27 18:30:09 +0400
+Processing by CalcController#input as HTML
+  Rendering calc/input.html.erb within layouts/application
+  Rendered calc/input.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 283ms (Views: 263.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------------------
+CalcControllerTest: test_should_get_[5,_25,_1],_[5]_for_view_with_[5,_25,_1,_2,_4,_5]
+-------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+CalcControllerTest: test_should_get_input
+-----------------------------------------
+Started GET "/calc/input" for 127.0.0.1 at 2016-11-27 18:30:57 +0400
+Processing by CalcController#input as HTML
+  Rendering calc/input.html.erb within layouts/application
+  Rendered calc/input.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 284ms (Views: 264.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------------------
+CalcControllerTest: test_should_get_[5,_25,_1],_[5]_for_view_with_[5,_25,_1,_2,_4,_5]
+-------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------------------
+CalcControllerTest: test_should_get_[5,_25,_1],_[5]_for_view_with_[5,_25,_1,_2,_4,_5]
+-------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+CalcControllerTest: test_should_get_input
+-----------------------------------------
+Started GET "/calc/input" for 127.0.0.1 at 2016-11-27 18:32:36 +0400
+Processing by CalcController#input as HTML
+  Rendering calc/input.html.erb within layouts/application
+  Rendered calc/input.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 275ms (Views: 255.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------------------------
+CalcControllerTest: test_should_get_[5,_25,_1],_[5]_for_view_with_[5,_25,_1,_2,_4,_5]
+-------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+CalcControllerTest: test_should_get_input
+-----------------------------------------
+Started GET "/calc/input" for 127.0.0.1 at 2016-11-27 18:35:07 +0400
+Processing by CalcController#input as HTML
+  Rendering calc/input.html.erb within layouts/application
+  Rendered calc/input.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 286ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
